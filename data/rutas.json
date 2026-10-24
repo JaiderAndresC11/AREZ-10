@@ -1,0 +1,28 @@
+{
+  "rutas": [
+    {
+      "zona": "Zona Norte",
+      "barrios": "Escribe aquí los barrios que cubre",
+      "dias": "Lunes y jueves",
+      "hora": "7:00 a.m. - 10:00 a.m.",
+      "frecuencia": "2 veces por semana",
+      "materiales": "Papel, cartón y plástico"
+    },
+    {
+      "zona": "Zona Centro",
+      "barrios": "Escribe aquí los barrios que cubre",
+      "dias": "Martes y viernes",
+      "hora": "8:00 a.m. - 11:00 a.m.",
+      "frecuencia": "2 veces por semana",
+      "materiales": "Vidrio y metal"
+    },
+    {
+      "zona": "Zona Sur",
+      "barrios": "Escribe aquí los barrios que cubre",
+      "dias": "Miércoles",
+      "hora": "2:00 p.m. - 5:00 p.m.",
+      "frecuencia": "1 vez por semana",
+      "materiales": "Todos los materiales"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zona 10 - Quiénes somos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="nav-barra">
+<nav class="nav">
+  <ul class="nav__links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="nosotros.html">Quiénes somos</a></li>
+    <li><a href="quehacemos.html">Qué hacemos</a></li>
+    <li><a href="actividades.html">Actividades</a></li>
+    <li><a href="aliados.html">Aliados</a></li>
+    <li><a href="voluntariado.html">Voluntariado</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <span class="nav__indicador" id="navIndicador"></span>
+  </ul>
+</nav>
+</div>
+
+<section class="seccion">
+  <div class="seccion__intro">
+    <p class="seccion__marca">Zona 10</p>
+    <h2>Quiénes somos</h2>
+    <p id="textoQuienesSomos"></p>
+  </div>
+
+  <div class="ficha">
+    <div class="ficha__fila"><strong>Razón social</strong><span id="razonSocial"></span></div>
+    <div class="ficha__fila"><strong>NIT</strong><span id="nit"></span></div>
+    <div class="ficha__fila"><strong>Sede</strong><span id="sedeFicha"></span></div>
+  </div>
+
+  <div class="anclas">
+    <a href="#mision">Misión</a>
+    <a href="#vision">Visión</a>
+    <a href="#principios">Principios</a>
+  </div>
+
+  <div class="mv-grid" id="mvGrid">
+    <p class="cargando">Cargando...</p>
+  </div>
+
+  <div id="principios" class="bloque-ancla">
+    <h3 style="color:var(--verde-950);font-size:16px;">Principios institucionales</h3>
+    <ul class="valores" id="listaPrincipios"></ul>
+  </div>
+</section>
+
+<footer class="footer">Zona 10 — Todos los derechos reservados</footer>
+
+<div class="wa-flotante">
+  <div class="wa-panel" id="panelWA">
+    <h4>Escríbenos por WhatsApp</h4>
+    <p>Resolvemos dudas sobre recolecciones, alianzas o PQR en minutos.</p>
+    <a id="enlaceWA" href="#" target="_blank" rel="noopener">Abrir chat</a>
+  </div>
+  <button class="wa-boton" id="botonWA" aria-haspopup="true" aria-expanded="false" aria-label="Abrir chat de WhatsApp">
+    <span class="wa-anillo"></span>
+    <img src="img/whatsapp.svg" alt="" aria-hidden="true">
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "materiales": [
+    { "id": "papel-carton", "nombre": "Papel y cartón", "descripcion": "Hojas, cajas, periódico. Deben estar secos y sin restos de comida o grasa.", "foto": "img/material-papel.jpg" },
+    { "id": "plastico", "nombre": "Plástico", "descripcion": "Botellas, envases y bolsas limpias. Retira tapas y enjuaga antes de entregar.", "foto": "img/material-plastico.jpg" },
+    { "id": "vidrio", "nombre": "Vidrio", "descripcion": "Frascos y botellas enteras. Empácalos aparte para evitar roturas.", "foto": "img/material-vidrio.jpg" },
+    { "id": "metal", "nombre": "Metal", "descripcion": "Latas de aluminio y conservas. Enjuaga los residuos de alimentos.", "foto": "img/material-metal.jpg" },
+    { "id": "organicos", "nombre": "Orgánicos", "descripcion": "Restos de comida y jardín. Solo si tu ruta ofrece recolección orgánica.", "foto": "img/material-organicos.jpg" },
+    { "id": "voluminosos", "nombre": "Voluminosos y especiales", "descripcion": "Electrodomésticos, muebles. Requieren solicitud de recolección especial.", "foto": "img/material-voluminosos.jpg" }
+  ],
+  "noReciclable": [
+    "Residuos con restos de comida sin enjuagar",
+    "Pilas, baterías y bombillos (llevar a punto especial)",
+    "Icopor, papel carbón o plastificado",
+    "Residuos hospitalarios o peligrosos",
+    "Vidrio roto sin empacar"
+  ]
+}

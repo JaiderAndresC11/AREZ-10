@@ -1,0 +1,34 @@
+{
+  "actividades": [
+    {
+      "titulo": "Simulacro Nacional",
+      "descripcion": "Participación en ejercicios de preparación y respuesta orientados a fortalecer la coordinación, la prevención y la seguridad en la sede y su entorno.",
+      "foto": "img/actividad-simulacro.jpg"
+    },
+    {
+      "titulo": "Jornadas de voluntariado",
+      "descripcion": "Actividades programadas por organizaciones aliadas y coordinadas con la Asociación. La convocatoria se publica únicamente cuando se han definido el objetivo, la fecha, el lugar, los cupos, las tareas y las recomendaciones de seguridad.",
+      "foto": "img/actividad-voluntariado.jpg"
+    },
+    {
+      "titulo": "Campañas de sensibilización",
+      "descripcion": "Actividades dirigidas a hogares, comercios e instituciones para promover la separación en la fuente, la entrega adecuada de materiales y el reconocimiento de la labor recicladora.",
+      "foto": "img/actividad-campanas.jpg"
+    },
+    {
+      "titulo": "Talleres y capacitaciones",
+      "descripcion": "Espacios formativos sobre materiales aprovechables, economía circular, seguridad, trabajo colaborativo y participación ciudadana.",
+      "foto": "img/actividad-talleres.jpg"
+    },
+    {
+      "titulo": "Encuentro comunitario de Navidad",
+      "descripcion": "Jornada de integración para asociados, familias, aliados y comunidad, orientada a fortalecer la solidaridad y el reconocimiento mutuo.",
+      "foto": "img/actividad-navidad.jpg"
+    },
+    {
+      "titulo": "Actividad comunitaria de Halloween",
+      "descripcion": "Jornada recreativa acompañada de mensajes sobre cuidado ambiental, reutilización creativa y disposición responsable de residuos.",
+      "foto": "img/actividad-halloween.jpg"
+    }
+  ]
+}

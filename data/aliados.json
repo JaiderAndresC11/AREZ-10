@@ -1,0 +1,39 @@
+{
+  "nota": "Este espacio incluirá los logotipos y una reseña de cada aliado, previa autorización.",
+  "tipos": [
+    {
+      "nombre": "Empresas y comercios",
+      "descripcion": "Articulamos entregas programadas, campañas internas y acciones de responsabilidad ambiental.",
+      "logo": "img/aliado-empresas.png"
+    },
+    {
+      "nombre": "Conjuntos residenciales",
+      "descripcion": "Apoyamos esquemas de separación, sensibilización y recolección periódica.",
+      "logo": "img/aliado-conjuntos.png"
+    },
+    {
+      "nombre": "Instituciones educativas",
+      "descripcion": "Desarrollamos actividades pedagógicas y proyectos de economía circular.",
+      "logo": "img/aliado-instituciones.png"
+    },
+    {
+      "nombre": "Entidades públicas y organizaciones sociales",
+      "descripcion": "Formulamos iniciativas de impacto ambiental, inclusión y fortalecimiento organizacional.",
+      "logo": "img/aliado-entidades.png"
+    }
+  ],
+  "entidadesQueRegulan": [
+    {
+      "nombre": "UAESP — Unidad Administrativa Especial de Servicios Públicos",
+      "descripcion": "Adelanta procesos relacionados con el aprovechamiento y administra registros distritales de recicladores y organizaciones."
+    },
+    {
+      "nombre": "Superintendencia de Servicios Públicos Domiciliarios",
+      "descripcion": "Ejerce funciones de inspección, vigilancia y control sobre los prestadores del servicio público, dentro del ámbito de sus competencias."
+    },
+    {
+      "nombre": "Ministerio de Vivienda, Ciudad y Territorio",
+      "descripcion": "Formula y reglamenta políticas nacionales del sector, incluido el esquema de aprovechamiento y la formalización de los recicladores de oficio."
+    }
+  ]
+}

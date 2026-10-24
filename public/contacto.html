@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zona 10 - Contacto</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="nav-barra">
+<nav class="nav">
+  <ul class="nav__links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="nosotros.html">Quiénes somos</a></li>
+    <li><a href="quehacemos.html">Qué hacemos</a></li>
+    <li><a href="actividades.html">Actividades</a></li>
+    <li><a href="aliados.html">Aliados</a></li>
+    <li><a href="voluntariado.html">Voluntariado</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <span class="nav__indicador" id="navIndicador"></span>
+  </ul>
+</nav>
+</div>
+
+<section class="seccion">
+  <div class="seccion__intro">
+    <p class="seccion__marca">Zona 10</p>
+    <h2>Contacto</h2>
+  </div>
+
+  <div class="mv-grid contacto-grid">
+    <div class="contacto-datos">
+      <p><strong>Sede:</strong> <span id="sedeContacto"></span></p>
+      <p><strong>Atención telefónica:</strong> <span id="telefonoContacto"></span></p>
+      <p><strong>Correo electrónico:</strong> <span id="correoContacto"></span></p>
+      <p style="font-size:13px;color:#8a8f8c;">El horario de atención y el tiempo estimado de respuesta se confirmarán próximamente.</p>
+    </div>
+
+    <form class="formulario" id="formularioContacto">
+      <div>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div>
+        <label for="organizacion">Organización (si aplica)</label>
+        <input type="text" id="organizacion" name="organizacion">
+      </div>
+      <div>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+      <div>
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      <div>
+        <label for="perfil">Seleccione su perfil</label>
+        <select id="perfil" name="perfil">
+          <option>Hogar</option>
+          <option>Conjunto residencial</option>
+          <option>Comercio o empresa</option>
+          <option>Institución educativa</option>
+          <option>Entidad u organización</option>
+          <option>Voluntario</option>
+          <option>Reciclador de oficio</option>
+        </select>
+      </div>
+      <div>
+        <label for="tipoSolicitud">Tipo de solicitud</label>
+        <select id="tipoSolicitud" name="tipoSolicitud">
+          <option>Programar una recolección</option>
+          <option>Solicitar una visita técnica</option>
+          <option>Organizar una actividad educativa</option>
+          <option>Proponer una alianza</option>
+          <option>Consultar convocatorias vigentes de voluntariado</option>
+          <option>Solicitar información de vinculación</option>
+          <option>Presentar una petición, queja o reclamo</option>
+        </select>
+      </div>
+      <div>
+        <label for="barrio">Barrio o localidad</label>
+        <input type="text" id="barrio" name="barrio">
+      </div>
+      <div>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+      <label style="font-weight:400;display:flex;gap:8px;align-items:flex-start;font-size:13px;">
+        <input type="checkbox" required style="width:auto;margin-top:3px;">
+        Autorizo el tratamiento de mis datos personales para gestionar y responder esta solicitud.
+      </label>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </div>
+</section>
+
+<section class="seccion" style="padding-top:0;">
+  <div class="seccion__intro">
+    <h2>Seleccione el tipo de PQR</h2>
+    <p>Elija la opción que mejor corresponda a su solicitud. Al finalizar el envío, el sistema generará un número de radicado para consulta y seguimiento.</p>
+  </div>
+
+  <div class="pqr-grid">
+    <div class="pqr-tarjeta">
+      <h3>1. Petición</h3>
+      <p class="pqr-cuando"><strong>¿Cuándo utilizarla?</strong> Cuando requiera información, documentos, orientación, una actuación específica o una respuesta sobre los servicios y actividades de la Asociación.</p>
+      <p class="pqr-cuando"><strong>Ejemplos:</strong> solicitar información sobre recolecciones, consultar requisitos de vinculación, pedir una certificación o proponer una actividad o alianza.</p>
+      <p class="pqr-cuando"><strong>Resultado esperado:</strong> respuesta de fondo, clara y relacionada con lo solicitado.</p>
+    </div>
+    <div class="pqr-tarjeta">
+      <h3>2. Queja</h3>
+      <p class="pqr-cuando"><strong>¿Cuándo utilizarla?</strong> Cuando desee manifestar inconformidad por la atención, la conducta o el trato recibido por parte de una persona vinculada a la Asociación.</p>
+      <p class="pqr-cuando"><strong>Ejemplos:</strong> atención irrespetuosa, trato discriminatorio, incumplimiento de normas de convivencia.</p>
+      <p class="pqr-cuando"><strong>Resultado esperado:</strong> revisión imparcial, medidas de protección cuando correspondan y comunicación del cierre, dentro de las reglas de confidencialidad.</p>
+    </div>
+    <div class="pqr-tarjeta">
+      <h3>3. Reclamo</h3>
+      <p class="pqr-cuando"><strong>¿Cuándo utilizarlo?</strong> Cuando considere que un servicio, compromiso o gestión de la Asociación fue prestado de manera deficiente, incompleta, tardía o diferente de lo acordado.</p>
+      <p class="pqr-cuando"><strong>Ejemplos:</strong> recolección no realizada, incumplimiento de una fecha acordada, error en el registro o pesaje.</p>
+      <p class="pqr-cuando"><strong>Resultado esperado:</strong> verificación de lo ocurrido y definición de la corrección, explicación o medida procedente.</p>
+    </div>
+  </div>
+
+  <p style="font-size:13px;color:#8a8f8c;max-width:640px;margin-top:20px;">
+    Si el caso se relaciona con discriminación, acoso, represalias o una situación sensible, puede solicitar manejo confidencial y la activación del Protocolo de inclusión y no discriminación de la Asociación.
+  </p>
+</section>
+
+<footer class="footer">
+  Zona 10 — NIT 900266346-1 · Todos los derechos reservados
+</footer>
+
+<div class="wa-flotante">
+  <div class="wa-panel" id="panelWA">
+    <h4>Escríbenos por WhatsApp</h4>
+    <p>Resolvemos dudas sobre recolecciones, alianzas o PQR en minutos.</p>
+    <a id="enlaceWA" href="#" target="_blank" rel="noopener">Abrir chat</a>
+  </div>
+  <button class="wa-boton" id="botonWA" aria-haspopup="true" aria-expanded="false" aria-label="Abrir chat de WhatsApp">
+    <span class="wa-anillo"></span>
+    <img src="img/whatsapp.svg" alt="" aria-hidden="true">
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

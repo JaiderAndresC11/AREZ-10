@@ -1,0 +1,39 @@
+{
+  "nombreCorto": "Zona 10",
+  "razonSocial": "Asociación de Recicladores de Engativá Zona 10",
+  "nit": "900266346-1",
+  "sede": "Carrera 122A # 65A-70, Bodega 1, barrio Faena, Engativá, Bogotá",
+  "telefono": "320 833 0563",
+  "correo": "arez.planta@gmail.com",
+
+  "heroTitulo": "Gestión integral para el aprovechamiento de residuos",
+  "heroTexto": "Promovemos la recuperación eficiente de materiales aprovechables, el fortalecimiento de los recicladores de oficio y la adopción de prácticas responsables de separación en la fuente por parte de hogares, comercios e instituciones. Nuestra gestión contribuye a reducir la disposición final de residuos, impulsar la economía circular y consolidar una ciudad más sostenible e incluyente.",
+
+  "quienesSomos": "La Asociación de Recicladores de Engativá Zona 10 es una organización de recicladores de oficio con sede en el barrio Faena, Bogotá. Articulamos experiencia operativa, compromiso ambiental y servicio a la comunidad para recuperar materiales aprovechables, promover una adecuada separación en la fuente y fortalecer el reconocimiento social y económico de la labor recicladora.",
+
+  "mision": "Gestionar la recolección, el transporte, la clasificación y el aprovechamiento de materiales reciclables con criterios de calidad, responsabilidad y dignidad laboral, generando valor ambiental para la comunidad y oportunidades sostenibles para los recicladores de oficio.",
+  "vision": "Consolidarnos como una organización referente en Engativá por la eficiencia de nuestra operación, la transparencia de nuestra gestión y la creación de alianzas orientadas a fortalecer la economía circular y mejorar las condiciones de la población recicladora.",
+
+  "principios": [
+    "Respeto",
+    "Integridad",
+    "Solidaridad",
+    "Responsabilidad ambiental",
+    "Inclusión",
+    "Transparencia",
+    "Trabajo colaborativo"
+  ],
+
+  "fotoPrincipal": "img/banner-inicio.png",
+  "fotoMision": "img/mision.jpg",
+  "fotoVision": "img/vision.jpg",
+
+  "impacto": [
+    { "titulo": "Material recuperado", "descripcion": "Volumen mensual y anual de materiales efectivamente aprovechados." },
+    { "titulo": "Recicladores y familias vinculadas", "descripcion": "Número de asociados activos y hogares beneficiados por la gestión." },
+    { "titulo": "Personas sensibilizadas", "descripcion": "Participantes en talleres, campañas y jornadas de educación ambiental." },
+    { "titulo": "Organizaciones atendidas", "descripcion": "Conjuntos residenciales, comercios, instituciones y demás organizaciones vinculadas." },
+    { "titulo": "Actividades ejecutadas", "descripcion": "Jornadas ambientales, voluntariados, talleres y eventos comunitarios desarrollados." },
+    { "titulo": "Contribución ambiental", "descripcion": "Resultados asociados al aprovechamiento y a la reducción de residuos enviados a disposición final." }
+  ]
+}
